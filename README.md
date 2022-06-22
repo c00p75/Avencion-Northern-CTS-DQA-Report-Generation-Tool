@@ -1,5 +1,5 @@
-# CTS-DQA-Tool_Avencion-Northern
-This tool is intended to check for CORRECTNESS, CONSISTENCY &amp; COMPLETENESS of the Avencion retention Client Tracking System (CTS) entries. The tool coverts the .accdb database to an Excel format then applies conditional formatting to indicate any false validation in a particular row and applies cell borders to falsely validated cells. 
+# CTS DQA & Report Genration Tool
+This tool is intended to check for CORRECTNESS, CONSISTENCY, and COMPLETENESS of the Avencion retention Client Tracking System (CTS) entries as well generate a summary report of enrollments and harmonization. The tool coverts the .accdb database to an Excel format then applies conditional formatting to indicate any false validation in a particular row and further applies cell borders to falsely validated cells. 
 
 The conditional formatting is applied as follows: 
 1.	Green background fill if the entry meets all validations and is complete, consistent, and correct.
